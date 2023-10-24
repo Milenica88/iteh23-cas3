@@ -97,6 +97,22 @@ if (!$rezultat) {
 
             <?php } // zatvaranje else-a
             ?>
+<div class="row" >
+            <div class="col-md-1" style="text-align: right">
+                <button id="btn-izmeni" class="btn btn-warning" data-toggle="modal" data-target="#izmeniModal">Izmeni</button>
+                
+            </div>
+
+            <div class="col-md-12" style="text-align: right">
+                <button id="btn-obrisi" class="btn btn-danger" style="background-color: red; border: 1px solid white;">Obrisi</button>
+            </div>
+
+            <div class="col-md-2" style="text-align: right" >
+                    <button id="btn-sortiraj" class="btn btn-normal" onclick="sortTable()">Sortiraj</button>
+                </div>
+
+        </div>
+
             </div>
     </div>
 
